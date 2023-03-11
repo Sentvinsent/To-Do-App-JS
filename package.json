@@ -1,5 +1,5 @@
 {
-  "name": "hangman-game-js",
+  "name": "to-do-app-js",
   "version": "1.0.0",
   "repository": {
     "url": "git+https://github.com/Sentvinsent/To-Do-App-JS.git"
@@ -8,8 +8,8 @@
   "main": "input.js",
   "scripts": {
     "dev-server": "webpack serve --open --mode=development",
-    "build": "webpack --mode=production",
-    "predeploy": "npm run build",
+    "build": "webpack serve --open --mode=production",
+    "predeploy": "npm run dev-server",
     "deploy": "gh-pages -d public"
   },
   "author": "",
