@@ -1,0 +1,29 @@
+{
+  "name": "hangman-game-js",
+  "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/Sentvinsent/To-Do-App-JS.git"
+  },
+  "description": "",
+  "main": "input.js",
+  "scripts": {
+    "dev-server": "webpack serve --open --mode=development",
+    "build": "webpack serve --open --mode=production",
+    "gh-build": "webpack --mode=development",
+    "predeploy": "npm run gh-build",
+    "deploy": "gh-pages -d public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "gh-pages": "^5.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
